@@ -13,7 +13,7 @@ const Navbar = () => {
         <Bell size={22} color="gray" />
         <div className="d-flex align-items-center gap-2">
           <img
-            src="https://via.placeholder.com/40"
+            src="https://placehold.co/40"
             alt="Admin"
             className="rounded-circle"
           />
