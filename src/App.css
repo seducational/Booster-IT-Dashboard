@@ -1,0 +1,126 @@
+body {
+  background-color: #f9fafb;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.bg-success-subtle {
+  background-color: #ecfdf5 !important;
+}
+
+.text-success {
+  color: #059669 !important;
+}
+
+.bg-secondary-subtle {
+  background-color: #f3f4f6 !important;
+}
+
+.text-secondary {
+  color: #6b7280 !important;
+}
+
+.form-select {
+  padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border-color: #e5e7eb;
+  cursor: pointer;
+}
+
+.form-select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.1);
+}
+
+.form-control {
+  border-color: #e5e7eb;
+}
+
+.dashboard-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.04);
+}
+
+.side-btn {
+  border: none;
+  background-color: transparent;
+  color: #6b7280;
+  text-align: left;
+  font-weight: 500;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.side-btn:hover,
+.side-btn.active {
+  background-color: #eef2ff;
+  color: #2563eb;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  width: calc(100% - 260px);
+  background-color: #f9fafb;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* Header */
+.search-bar {
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  border: none;
+  padding: 10px 15px;
+  width: 380px;
+}
+
+/* Cards */
+.stat-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #f0f0f0;
+  height: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.stat-card h3 {
+  color: #111827;
+}
+
+/* Chart Card */
+.chart-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #f0f0f0;
+  width: 100%;
+}
+
+.chart-bg {
+  background-color: #f9faff;
+  border-radius: 16px;
+}
